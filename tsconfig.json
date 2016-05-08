@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "es5",
+        "module": "commonjs",
+        "jsx": "react",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!./node_modules/**/*"
+    ],
+    "files": [
+        "./typings/es6-shim/es6-shim.d.ts",
+        "./typings/react/react-dom.d.ts",
+        "./typings/react/react.d.ts",
+        "./typings/tsd.d.ts",
+        "./controlls.component.tsx",
+        "./index.tsx",
+        "./memo.component.tsx"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

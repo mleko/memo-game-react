@@ -1,0 +1,22 @@
+{
+  "name": "memo-game",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "tsd reinstall --overwrite --save",
+    "start": "webpack-dev-server"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "react": "~0.14.7",
+    "react-dom": "~0.14.7",
+    "ts-loader": "~0.8.0",
+    "tsd": "~0.6.4",
+    "typescript": "~1.7.5",
+    "webpack": "~1.12.12",
+    "webpack-dev-server": "~1.10.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.6.1"
+  }
+}
