@@ -16,5 +16,8 @@ module.exports = {
   entry: {
     // Set index.tsx as application entry point.
     app: './index.tsx'
-  }
+  },
+  output: {
+    filename: 'bundle.js'
+  },
 };
