@@ -199,4 +199,5 @@ interface Card {
     class: string
     setIndex: number
 }
+
 type CardState = "matched" | "flipped" | "normal";
